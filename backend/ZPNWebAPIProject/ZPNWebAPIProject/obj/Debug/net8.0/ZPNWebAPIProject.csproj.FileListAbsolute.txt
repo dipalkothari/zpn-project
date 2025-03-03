@@ -1,0 +1,144 @@
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\appsettings.Development.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\appsettings.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.staticwebassets.endpoints.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.exe
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.deps.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.runtimeconfig.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.pdb
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\DnsClient.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MQTTnet.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\SharpCompress.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Snappier.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZstdSharp.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.csproj.AssemblyReference.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.AssemblyInfoInputs.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.AssemblyInfo.cs
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.csproj.CoreCompileInputs.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\scopedcss\bundle\ZPNWebAPIProject.styles.css
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.ZPNWebAPIProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.ZPNWebAPIProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.build.ZPNWebAPIProject.props
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ZPNWebAPIProject.props
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ZPNWebAPIProject.props
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAP.899D8AB4.Up2Date
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\refint\ZPNWebAPIProject.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.pdb
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.genruntimeconfig.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ref\ZPNWebAPIProject.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MQTTNet.Client.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\System.Text.Json.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cs
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\appsettings.Development.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\appsettings.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.staticwebassets.endpoints.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.exe
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.deps.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.runtimeconfig.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.pdb
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\DnsClient.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MQTTnet.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MQTTNet.Client.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\SharpCompress.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Snappier.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\System.Text.Json.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZstdSharp.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.csproj.AssemblyReference.cache
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.AssemblyInfoInputs.cache
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.AssemblyInfo.cs
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.csproj.CoreCompileInputs.cache
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cs
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cache
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\scopedcss\bundle\ZPNWebAPIProject.styles.css
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.ZPNWebAPIProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.ZPNWebAPIProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.build.ZPNWebAPIProject.props
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ZPNWebAPIProject.props
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ZPNWebAPIProject.props
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAP.899D8AB4.Up2Date
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\refint\ZPNWebAPIProject.dll
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.pdb
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.genruntimeconfig.cache
+D:\ZPN Webapp\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ref\ZPNWebAPIProject.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.csproj.AssemblyReference.cache
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.AssemblyInfoInputs.cache
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.AssemblyInfo.cs
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.csproj.CoreCompileInputs.cache
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cs
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cache
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\refint\ZPNWebAPIProject.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.pdb
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\appsettings.Development.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\appsettings.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.staticwebassets.endpoints.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.exe
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.deps.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.runtimeconfig.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZPNWebAPIProject.pdb
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\DnsClient.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MongoDB.Bson.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MongoDB.Driver.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MQTTnet.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\MQTTnet.Extensions.ManagedClient.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\SharpCompress.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Snappier.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\ZstdSharp.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\scopedcss\bundle\ZPNWebAPIProject.styles.css
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.development.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.ZPNWebAPIProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.ZPNWebAPIProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.build.ZPNWebAPIProject.props
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ZPNWebAPIProject.props
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ZPNWebAPIProject.props
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAP.899D8AB4.Up2Date
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.genruntimeconfig.cache
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ref\ZPNWebAPIProject.dll

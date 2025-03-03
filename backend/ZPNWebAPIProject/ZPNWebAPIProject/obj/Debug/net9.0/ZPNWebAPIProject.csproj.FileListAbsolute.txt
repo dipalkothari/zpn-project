@@ -1,0 +1,6 @@
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net9.0\ZPNWebAPIProject.csproj.AssemblyReference.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net9.0\ZPNWebAPIProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net9.0\ZPNWebAPIProject.AssemblyInfoInputs.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net9.0\ZPNWebAPIProject.AssemblyInfo.cs
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net9.0\ZPNWebAPIProject.csproj.CoreCompileInputs.cache
+D:\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net9.0\ZPNWebAPIProject.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "ZPNWebAPIProject.ChargingSessionController",
+    "Method": "Get",
+    "RelativePath": "api/ChargingSession",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ZPNWebAPIProject.ChargingSession",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ZPNWebAPIProject.ChargingSessionController",
+    "Method": "StartCharging",
+    "RelativePath": "api/ChargingSession/startCharging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZPNWebAPIProject.ChargingSessionController",
+    "Method": "StopCharging",
+    "RelativePath": "api/ChargingSession/stopCharging",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
