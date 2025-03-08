@@ -12,12 +12,9 @@ namespace ZPNWebAPIProject
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId, AllowTruncation = true)]
         public ObjectId Id { get; set; }
-        //
 
         [BsonRepresentation(MongoDB.Bson.BsonType.String, AllowTruncation = true)]
         public Guid SessionId { get; set; }
-
-        //
 
         [BsonRepresentation(BsonType.DateTime, AllowTruncation = true)]
         public DateTime StartTime { get; set; }
@@ -31,14 +28,6 @@ namespace ZPNWebAPIProject
 
         [BsonRepresentation(BsonType.Double, AllowTruncation = true)]
         public double EnergyConsumed { get; set; }
-
-        //public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
-        //{
-        //    if (EndTime <= StartTime)
-        //    {
-        //        yield return new ValidationResult("End Time must be greater than the start Time.", new[] { "EndTime" });
-        //    }
-        //}
 
     }
 }
