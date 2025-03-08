@@ -1196,6 +1196,7 @@
       "MQTTnet >= 4.3.7.1207",
       "MQTTnet.Extensions.ManagedClient >= 4.3.7.1207",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
+      "MongoDB.Bson >= 3.2.1",
       "MongoDB.Driver >= 3.2.1",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 7.3.0",
@@ -1264,6 +1265,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[3.2.1, )"
           },
           "MongoDB.Driver": {
             "target": "Package",

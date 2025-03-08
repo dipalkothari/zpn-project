@@ -10,5 +10,7 @@ namespace ZPNWebAPIProject.Repository
 
         public Task<ChargingSession> GetChargingSessionByStatusAsync(string status);
 
+        public Task<ChargingSession> GetChargingSessionBySessionIdAsync(Guid sessionId);
+
     }
 }

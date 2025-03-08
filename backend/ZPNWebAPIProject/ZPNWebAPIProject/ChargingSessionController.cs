@@ -18,16 +18,16 @@ namespace ZPNWebAPIProject
         [HttpGet]
         public async Task<ActionResult<ChargingSession>> Get(string status)
         {
-            if(status.ToLower() != "charging" && status.ToLower() != "stopped")
+            if (status.ToLower() != "charging" && status.ToLower() != "stopped")
             {
                 return BadRequest("Status does not exist.Only Charging or Stopped should be enter as status.");
             }
             var sessionDetails = await chargingSessionService.GetChargingSessionByStatusAsync(status);
             if (sessionDetails is null)
             {
-                return NotFound();
+                return BadRequest("There is not any session details for "+status+" status." );
             }
-             return sessionDetails;
+            return sessionDetails;
         }
 
 
@@ -44,21 +44,33 @@ namespace ZPNWebAPIProject
         }
 
         [HttpPost("stopCharging")]
-        public async Task<IActionResult> StopCharging(DateTime startTime , DateTime endTime)
+        public async Task<IActionResult> StopCharging(DateTime endTime, Guid sessionId)
         {
-            if (endTime <= startTime)
-            {
-                return BadRequest("End Time must be greater than the start Time.");
-            }
-            ChargingSession sessionDetails = new ChargingSession();
-            sessionDetails.StartTime = startTime;
-            sessionDetails.EndTime = endTime;
+            if (sessionId == Guid.Empty || endTime == DateTime.MinValue)
+                return BadRequest("Invalid input paramter.Please correct value of EndTime and SessionId");
 
-            await chargingSessionService.StopChargingAsync(sessionDetails);
+            ChargingSession sessionDetail = await chargingSessionService.GetChargingSessionBySessionIdAsync(sessionId);
+            if(sessionDetail == null)
+            {
+                return BadRequest("There is not any session details for this input praramter value");
+            }
+            if (sessionDetail != null && endTime <= sessionDetail.StartTime)
+            {
+                return BadRequest("End Time must be greater than the start Time. Start Time is for this session " + sessionDetail.StartTime);
+            }
+            TimeSpan duration = Convert.ToDateTime(endTime).Subtract(sessionDetail.StartTime);
+
+            ChargingSession csDetails = new ChargingSession();
+            csDetails.StartTime = sessionDetail.StartTime;
+            csDetails.EndTime = endTime;
+            csDetails.SessionId = sessionId;
+            csDetails.EnergyConsumed = duration.TotalSeconds * 0.5;
+           await chargingSessionService.StopChargingAsync(csDetails);
+           
             return CreatedAtAction(nameof(Get), new
             {
-                id = sessionDetails.Id
-            }, sessionDetails);
+                id = csDetails.Id,
+            }, csDetails);
         }
     }
 }

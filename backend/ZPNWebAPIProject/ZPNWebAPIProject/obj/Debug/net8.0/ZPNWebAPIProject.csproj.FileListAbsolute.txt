@@ -138,7 +138,8 @@ D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticw
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ZPNWebAPIProject.props
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ZPNWebAPIProject.props
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.pack.json
-D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAP.899D8AB4.Up2Date
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.genruntimeconfig.cache
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ref\ZPNWebAPIProject.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.sourcelink.json
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

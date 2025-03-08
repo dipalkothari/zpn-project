@@ -16,9 +16,21 @@ namespace ZPNWebAPIProject.Repository
         }
         public async Task<ChargingSession> GetChargingSessionByStatusAsync(string status)
         {
-            return await chargingCollection.Find(x => x.Status.ToLower() == status.Trim().ToLower())
-                    .SortByDescending(e => e.EndTime).FirstOrDefaultAsync();
+            if (status.Trim().ToLower() == "charging")
+            {
+                return await chargingCollection.Find(x => x.Status.ToLower() == status.Trim().ToLower())
+                                   .SortByDescending(e => e.StartTime).FirstOrDefaultAsync();
+            }
+            else
+            {
+                return await chargingCollection.Find(x => x.Status.ToLower() == status.Trim().ToLower())
+                   .SortByDescending(e => e.EndTime).FirstOrDefaultAsync();
+            }
+        }
 
+        public async Task<ChargingSession> GetChargingSessionBySessionIdAsync(Guid sessionId)
+        {
+            return await chargingCollection.Find(x => x.SessionId == sessionId).FirstOrDefaultAsync();
         }
 
         public async Task StartChargingAsync(ChargingSession chargingSessionDetails)
@@ -26,19 +38,21 @@ namespace ZPNWebAPIProject.Repository
             chargingSessionDetails.Id = ObjectId.GenerateNewId();
             chargingSessionDetails.Status = "Charging";
             chargingSessionDetails.StartTime = System.DateTime.Now;
+            chargingSessionDetails.SessionId = Guid.NewGuid();
             await chargingCollection.InsertOneAsync(chargingSessionDetails);
         }
 
         public async Task StopChargingAsync(ChargingSession chargingSessionDetails)
         {
-            TimeSpan duration = Convert.ToDateTime(chargingSessionDetails.EndTime).Subtract(chargingSessionDetails.StartTime);
-            chargingSessionDetails.Id = ObjectId.GenerateNewId();
-            chargingSessionDetails.Status = "Stopped";
-            chargingSessionDetails.EnergyConsumed = duration.TotalSeconds *0.5;
-            await chargingCollection.InsertOneAsync(chargingSessionDetails);
+            var update = Builders<ChargingSession>.Update
+            .Set(s => s.Status, "Stopped")
+            .Set(s => s.EndTime, chargingSessionDetails.EndTime)
+            .Set(s => s.EnergyConsumed, chargingSessionDetails.EnergyConsumed);
+
+            var filter = Builders<ChargingSession>.Filter
+            .Eq(s => s.SessionId, chargingSessionDetails.SessionId);
+
+            await chargingCollection.UpdateOneAsync(filter, update);
         }
-
-
-
     }
 }

@@ -13,7 +13,7 @@ public class SessionService
     public SessionService(IChargingSessionService chargingSessionService)
     {
         _chargingSessionService = chargingSessionService;
-        var client = new MongoClient("mongodb://mongo:27017");
+         var client = new MongoClient("mongodb+srv://zpn:zpn@clusterzpn.fdfjb.mongodb.net/?retryWrites=true&w=majority&appName=ClusterZPN");
         var database = client.GetDatabase("zpndb");
         _collection = database.GetCollection<ChargingSession>("chargingsession");
 

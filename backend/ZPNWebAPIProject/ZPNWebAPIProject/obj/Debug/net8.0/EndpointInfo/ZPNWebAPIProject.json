@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "ZPNWebAPIProject",
-    "version": "1.0"
+    "title": "Charging Session",
+    "version": "v1"
   },
   "paths": {
     "/api/ChargingSession": {
@@ -62,7 +62,7 @@
         ],
         "parameters": [
           {
-            "name": "startTime",
+            "name": "endTime",
             "in": "query",
             "schema": {
               "type": "string",
@@ -70,11 +70,11 @@
             }
           },
           {
-            "name": "endTime",
+            "name": "sessionId",
             "in": "query",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "uuid"
             }
           }
         ],
@@ -91,6 +91,10 @@
       "ChargingSession": {
         "type": "object",
         "properties": {
+          "sessionId": {
+            "type": "string",
+            "format": "uuid"
+          },
           "startTime": {
             "type": "string",
             "format": "date-time"
