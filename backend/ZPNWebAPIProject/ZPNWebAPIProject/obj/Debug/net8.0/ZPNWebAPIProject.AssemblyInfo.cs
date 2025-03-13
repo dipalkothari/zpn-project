@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZPNWebAPIProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ce9dba9ad7ecd60ad8573a0134854ac9c9830a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a80938ad7a6253e14275648173c0391daba9ffc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZPNWebAPIProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZPNWebAPIProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
