@@ -24,37 +24,45 @@ public class SessionService
     public async Task StartMqttListener()
     {
         var options = new MqttClientOptionsBuilder()
-            .WithTcpServer("localhost", 1883)
+            //  .WithTcpServer("localhost", 1883)
+            .WithTcpServer("broker.emqx.io", 1883)
+            //
+            .WithCredentials("emqx", "public") // Set username and password
+            .WithClientId(Guid.NewGuid().ToString())
+            //
             .WithCleanSession()
             .Build();
 
-        await _mqttClient.ConnectAsync(options);
+        var connectResult =  await _mqttClient.ConnectAsync(options);
+        if (connectResult.ResultCode == MqttClientConnectResultCode.Success)
+        {
 
-        _mqttClient.ApplicationMessageReceivedAsync += async (e) =>
+
+            _mqttClient.ApplicationMessageReceivedAsync += async (e) =>
         {
             var payload = Encoding.UTF8.GetString(e.ApplicationMessage.Payload);
-            if (e.ApplicationMessage.Topic == "charging/start")
+            if (e.ApplicationMessage.Topic == "start")
             {
                 await StartCharging(payload);
             }
-            else if (e.ApplicationMessage.Topic == "charging/stop")
+            else if (e.ApplicationMessage.Topic == "stop")
             {
                 await StopCharging(payload);
             }
         };
 
-        await _mqttClient.SubscribeAsync("charging/start");
-        await _mqttClient.SubscribeAsync("charging/stop");
+            await _mqttClient.SubscribeAsync("start");
+            await _mqttClient.SubscribeAsync("stop");
+        }
     }
 
     private async Task StartCharging(string payload)
     {
-        var result = Newtonsoft.Json.JsonConvert.DeserializeObject<ChargingSession>(payload);
-        if (result != null)
+        if(payload == "Charging Start")
         {
-            await _chargingSessionService.StartChargingAsync(result);
+            ChargingSession sessionDetails = new ChargingSession();
+            await _chargingSessionService.StartChargingAsync(sessionDetails);
         }
-
     }
     private async Task StopCharging(string payload) 
     {

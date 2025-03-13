@@ -143,3 +143,6 @@ D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebA
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ref\ZPNWebAPIProject.dll
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\ZPNWebAPIProject.sourcelink.json
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

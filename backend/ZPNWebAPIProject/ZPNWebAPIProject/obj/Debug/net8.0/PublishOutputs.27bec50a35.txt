@@ -7,6 +7,9 @@ D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTm
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\ZPNWebAPIProject.pdb
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\DnsClient.dll
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Options.dll
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\MongoDB.Bson.dll
 D:\ZPN Webapp\backend\ZPNWebAPIProject\ZPNWebAPIProject\obj\Release\net8.0\PubTmp\Out\MongoDB.Driver.dll

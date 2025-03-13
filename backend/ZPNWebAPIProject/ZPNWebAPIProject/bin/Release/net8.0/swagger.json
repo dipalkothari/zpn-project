@@ -1,0 +1,104 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Charging Session",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/ChargingSession": {
+      "get": {
+        "tags": [
+          "ChargingSession"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "status",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/ChargingSession"
+            }
+          }
+        }
+      }
+    },
+    "/api/ChargingSession/startCharging": {
+      "post": {
+        "tags": [
+          "ChargingSession"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ChargingSession/stopCharging": {
+      "post": {
+        "tags": [
+          "ChargingSession"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "startTime",
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "in": "query",
+            "name": "endTime",
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "in": "query",
+            "name": "sessionId",
+            "type": "string",
+            "format": "uuid"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ChargingSession": {
+      "type": "object",
+      "properties": {
+        "sessionId": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "startTime": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "endTime": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "energyConsumed": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

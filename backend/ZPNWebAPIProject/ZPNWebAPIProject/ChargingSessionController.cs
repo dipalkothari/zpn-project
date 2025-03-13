@@ -1,14 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
+﻿using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using MongoDB.Bson;
-using System.ComponentModel.DataAnnotations;
 using ZPNWebAPIProject.Repository;
 
 namespace ZPNWebAPIProject
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowOrigin")]
     public class ChargingSessionController : ControllerBase
     {
         private readonly IChargingSessionService chargingSessionService;
@@ -33,14 +31,15 @@ namespace ZPNWebAPIProject
 
 
         [HttpPost("startCharging")]
-        public async Task<IActionResult> StartCharging()
+        public async Task<ActionResult<ChargingSession>> StartCharging()
         {
             ChargingSession sessionDetails = new ChargingSession();
             await chargingSessionService.StartChargingAsync(sessionDetails);
-            return CreatedAtAction(nameof(Get), new
-            {
-                id = sessionDetails.Id
-            }, sessionDetails);
+            //return CreatedAtAction(nameof(Get), new
+            //{
+            //    id = sessionDetails.Id
+            //}, sessionDetails);
+            return sessionDetails;
         }
 
         [HttpPost("stopCharging")]
